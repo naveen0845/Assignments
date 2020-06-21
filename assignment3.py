@@ -74,19 +74,29 @@ elif(n==0):
 	print("zero")
 else:
 	print("number is negative")
-	
-	
-	
-#print the number in words
 
-a={1:"one",2:"two",3:"three",4:"four",5:"five"}
-x=[1,2,3,4,5]
-n=int(input("enter the number between (1 to 5)"))
-if(n in x):
-	print("number in words")
-else:
-	print("number not in words")
+
+
+
+#print the number in words using nested if 
 	
+n=int(input('enter the number in between 1-5'))
+if (n <6):
+	if n==1:
+		print('one')
+	elif(n==2):
+		print('two')
+	elif(n==3):
+		print('three')
+	elif(n==4):
+		print('four')
+	elif(n==5):
+		print('five')
+else:
+	print(n,'is not in between 1-5')	
+	
+	
+
 
 #vowel or consonant
 
