@@ -33,7 +33,7 @@ maximum(5,6,7)
 
 
 
-#given number in or not
+#given number in range or not
 
 def search_elementa(a,x):
 	if a in range(0,x+1):
